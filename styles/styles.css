@@ -21,6 +21,12 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+img.profile {
+    float: left;
+    margin: 20px;
+    clear: left;
+}
+
 p {
     padding: 0;
 }
@@ -49,7 +55,7 @@ main img {
     height: auto;
     border: 8px solid yellowgreen;
     padding: 5px 10px 20px 100px;
-    box-shadow: 5px;
+    box-shadow: 5px 10px #888888;
 }
 
 footer {
