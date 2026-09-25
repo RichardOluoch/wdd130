@@ -5,8 +5,8 @@
 }
 
 :root {
-    --heading-font: 'Sacramento', cursive;
-    --body-font: 'Pinyon Script', cursive;
+    --heading-font: 'Montserrat', sans-serif;
+    --body-font: 'Inter', sans-serif;
     --primary-color: #2F4F4F;
     --secondary-color: #DCDCDC;
     --font-size-large: 24px;
@@ -20,9 +20,15 @@ footer,
     margin: 0 auto;
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
 body {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    font-weight: 400;
 }
 
 div {
@@ -42,7 +48,7 @@ nav {
 }
 
 nav a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     padding: var(--padding);
     display: block;
     text-decoration: none;
