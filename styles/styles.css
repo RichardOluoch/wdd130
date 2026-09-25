@@ -31,7 +31,8 @@ nav a {
 }
 
 h1 {
-    background-color: var(--heading-background-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: var(--heading-font);
     font-weight: 700;
 }
