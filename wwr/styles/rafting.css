@@ -191,3 +191,81 @@ section figcaption {
 h2 {
     background-color: var(--accent-color);
 }
+
+/* Contact Us Page */
+div h3,
+h4 {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+
+div h1 {
+    color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.container img {
+    margin-right: 30px;
+}
+
+.container form label {
+    margin-bottom: 10px;
+}
+
+.message {
+    display: flex;
+}
+
+.message div {
+    margin-left: 15px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    margin-left: 20px;
+    padding: 1rem;
+    border: 1px solid rgb (0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border-radius: 5%;
+    padding: 5px 100px;
+}
+
+form div {
+    margin-top: 5px;
+}
+
+form input,
+textarea {
+    padding: 5px;
+}
+
+.employee-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+iframe {
+    border: 0;
+    width: 600px;
+    height: 450px;
+}

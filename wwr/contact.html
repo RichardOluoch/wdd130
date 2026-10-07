@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | WDD 130</title>
+    <meta name="description" content="Contact Diani White Water Rafting">
+    <meta name="author" content="Richard Oluoch">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-raftingbw.png" alt="white water rafting">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div>
+            <h1>Diani White Water Rafting</h1>
+            <h3>123 Main River Street</h3>
+            <h4>Diani, Ukunda</h4>
+            <h4>(+254) 743 18 9702</h4>
+        </div>
+
+        <div class="container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.8023534373547!2d39.59520099999999!3d-4.258654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184047000a9c5067%3A0xc1b8568ae13e863e!2sKongo%20Beach%20Club%20Diani!5e0!3m2!1sen!2ske!4v1791368144253!5m2!1sen!2ske"
+              allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+            <form>
+                <div>
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Jane Doe"
+                      required>
+                </div>
+
+                <div>
+                    <label for="emailaddress">Email </label>
+                    <input type="text" id="emailaddress" name="emailaddress"
+                      placeholder="jane@doe.com" required>
+                </div>
+
+                <div class="message">
+                    <p>Message Purpose</p>
+
+                    <div>
+                        <input type="radio" id="inquiry" name="general" value="inquiry" checked>
+                        <label for="inquiry">General Inquiry</label><br>
+
+                        <input type="radio" id="question" name="reservation" value="question"
+                          checked>
+                        <label for="question">Reservation Question</label><br>
+
+                        <input type="radio" id="suggestion" name="website" value="suggestion"
+                          checked>
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="text">Message</label>
+                    <textarea id="message" name="message" rows="3" cols="40"
+                      placeholder="Type here"></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe" checked>
+                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <div>
+                    <button type="button">Get in Touch!</button>
+                </div>
+            </form>
+        </div>
+
+
+        <section>
+            <h2 class="adventure-heading">We Are Here to Serve You</h2>
+            <div class="employee-container">
+                <figure>
+                    <img src="images/happy_client.jpg" alt="happy client">
+                    <figcaption>Richard Oluoch</figcaption>
+                    <figcaption>-Actuary</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy_client.jpg" alt="happy client">
+                    <figcaption>Richard Oluoch</figcaption>
+                    <figcaption>-Software Developer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy_client.jpg" alt="happy client">
+                    <figcaption>Richard Oluoch</figcaption>
+                    <figcaption>-Data Analyst</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <footer>
+            <p>©️ 2026 🚣Diani White Water Rafting 🚣Richard Oluoch</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook-square.svg" alt="facebook">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram-square.svg" alt="instagram">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="images/youtube-square.svg" alt="youtube">
+                </a>
+            </nav>
+        </footer>
+
+    </main>
+</body>
+
+</html>
