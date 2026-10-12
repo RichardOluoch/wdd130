@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="body-content">
         <div class="hero index">
             <img src="images/hero_transparency_1024.png" alt="home image">
             <h4>HAVE AN ADVENTURE</h4>
@@ -67,20 +67,33 @@
         <article>
             <form>
                 <h1>Subscribe to Newsletter</h1>
-                <p>Gain access to our guide to planning a trip to this region</p>
-                <fieldset>
-                    <label for="email"></label>
-                    <input type="text" id="email" name="email" placeholder="Your email address"
-                      required>
+                <p>Sign up for rafting updates, exciting trips, special offers, and adventure
+                    stories from Diani.</p>
+                <label for="firstname">First name</label>
+                <input type="text" id="firstname" name="firstname"
+                  placeholder="Enter your first name" required><br>
 
-                    <!-- <label for="fullname">Name</label>
-                    <input type="text" id="fullname" name="fullname" placeholder="Jane Doe"
-                      required> -->
+                <label for="email">Email address</label>
+                <input type="text" id="email" name="email" placeholder="Your email address"
+                  required><br>
 
-                    <button type="submit">Subscribe</button>
-                </fieldset>
+                <label for="firstname">Favorite adventure (optional)</label>
+                <select name="browser" id="browser">
+                    <option value="" selected disabled>Whitewater rafting</option>
+                    <option value="mad-otter">The Mad Otter</option>
+                    <option value="grizzly-flip">Grizzly Flip</option>
+                    <option value="muddy-beaver">Muddy Beaver</option>
+                    <option value="boca-del-jaguar">Boca del Jaguar</option>
+                    <option value="el-toro-bravo">El Toro Bravo</option>
+                </select><br>
 
-                <p>No spam. Just adventure. Unsubscribe anytime</p>
+                <label for="newsletter" class="radio-label">
+                    <input type="radio" id="newsletter" name="newsletter" value="newsletter">I agree
+                    to receive newsletter emails and understand I can
+                    unsubscribe
+                    at any time.</label><br>
+
+                <button type="submit">Subscribe</button>
             </form>
         </article>
     </main>
