@@ -153,6 +153,14 @@ section {
     margin-top: 16px;
 }
 
+article p {
+    text-align: left;
+}
+
+.history-container p {
+    text-align: left;
+}
+
 .history {
     text-align: center;
 }
@@ -163,7 +171,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 16px 90px;
+    margin: 16px 30px;
     text-align: center;
 }
 
@@ -378,13 +386,13 @@ textarea {
 
 .trips-container {
     display: flex;
-    margin: 0 85px;
+    margin: 0 90px;
 }
 
 .trips-container img {
     display: block;
     width: 100%;
-    height: 170px;
+    height: 150px;
 }
 
 .trips-container div {
@@ -401,6 +409,10 @@ textarea {
 
 .trips-container figcaption {
     line-height: 30px;
+}
+
+.trips-container p {
+    text-align: left;
 }
 
 .adventure {
@@ -437,6 +449,10 @@ div article img {
 
 .thrilling div {
     margin-bottom: -85px;
+}
+
+.thrilling p {
+    text-align: center;
 }
 
 article div {
@@ -494,9 +510,7 @@ article form button {
 
 /*Trips Page*/
 .trips-hero {
-    display: grid;
-    place-items: inherit;
-    /* height: 100vh; */
+    margin-top: -8px;
 }
 
 .hero-content {
@@ -511,7 +525,7 @@ article form button {
 
 .trips-hero h2 {
     position: absolute;
-    top: 160px;
+    top: 140px;
     left: 0;
     padding: 16px;
     text-align: left;
@@ -523,7 +537,7 @@ article form button {
 
 .near_nav {
     position: absolute;
-    top: 160px;
+    top: 135px;
     left: 0;
     padding: 16px;
     text-align: left;
@@ -535,7 +549,7 @@ article form button {
 
 .far_nav {
     position: absolute;
-    top: 200px;
+    top: 180px;
     left: 0;
     padding: 16px;
     text-align: left;
@@ -547,7 +561,7 @@ article form button {
 
 .trips-hero p {
     position: absolute;
-    top: 270px;
+    top: 250px;
     left: 0;
     width: 550px;
     padding: 16px;
@@ -561,7 +575,7 @@ article form button {
 .hero-content button {
     display: block;
     position: absolute;
-    top: 380px;
+    top: 350px;
     padding: 16px;
     left: 0;
     margin-left: 16px;
