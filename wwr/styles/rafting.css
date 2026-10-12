@@ -38,11 +38,6 @@ footer {
     margin: 0 auto;
 }
 
-/* .navbar,
-.body-content {
-    width: 100%;
-} */
-
 header {
     background-color: #F4E7D3;
     font-family: var(--heading-font);
@@ -104,16 +99,15 @@ nav ul {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 30px;
-    padding: 0 24px;
+    align-items: center;
     background-color: var(--primary-color);
     color: #FFFFFF;
 }
 
 footer img {
-    width: 30px;
-    height: auto;
+    width: 20px;
 }
 
 h1,
@@ -122,12 +116,17 @@ h2 {
     color: var(--primary-color);
 }
 
+h2 {
+    margin: 16px 100px;
+}
+
 h3 {
     color: var(--secondary-color);
     font-family: var(--heading-font);
 }
 
-nav {
+nav,
+footer {
     margin: 16px;
     padding: 8px;
 }
@@ -144,7 +143,7 @@ section {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    margin: 0 90px;
+    margin: 16px 90px;
 }
 
 .history-container img {
@@ -173,27 +172,15 @@ article p {
     align-items: center;
     margin: 16px 30px;
     text-align: center;
+    width: 100%;
 }
 
 .adventure-heading {
     text-align: center;
 }
 
-/* section figure {
-    align-items: center;
-    justify-content: center;
-} */
-
 section figure img {
-    width: 200px;
-}
-
-/* section figcaption {
-    text-align: center;
-} */
-
-.social-media a {
-    text-decoration: none;
+    width: 180px;
 }
 
 /* Hero section */
@@ -202,9 +189,10 @@ section figure img {
 }
 
 .hero > img {
-    display: block;
     width: 100%;
-    height: auto;
+    min-height: 320px;
+    max-height: 680px;
+    object-fit: cover;
 }
 
 /* Hero heading */
@@ -278,6 +266,7 @@ button:hover,
     /* width: 100%; */
     padding: 16px;
     text-align: left;
+    align-items: center;
     background-color: var(--accent2-color);
     opacity: 0.8;
     color: var(--text-color);
@@ -292,10 +281,12 @@ button:hover,
 }
 
 h2 {
-    background-color: var(--accent1-color);
+    background-color: transparent;
     color: var(--primary-color);
     font-family: var(--heading-font);
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
+    font-weight: 800;
+    font-size: 40px;
 }
 
 /* Contact Us Page */
@@ -317,20 +308,21 @@ h4 {
     margin-bottom: 10px;
 }
 
-.container {
+.contact-container {
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
 
     display: flex;
-    margin: 16px 90px;
+    margin: 30px 100px;
 }
 
-.container img {
+.contact-container img {
     margin-right: 30px;
 }
 
-.container form label {
-    margin-bottom: 10px;
+.contact-container input {
+    height: 40px;
+    padding: 10px;
 }
 
 .message {
@@ -342,7 +334,7 @@ h4 {
 }
 
 form {
-    width: 650px;
+    /* width: 650px; */
     margin: 0 auto;
     margin-left: 20px;
     padding: 1rem;
@@ -353,11 +345,6 @@ form {
 }
 
 button {
-    /* background-color: var(--accent-color);
-    color: var(--primary-color);
-    display: block;
-    margin: 0 auto; */
-
     background-color: var(--accent1-color);
     color: var(--primary-color);
     border: none;
@@ -374,7 +361,7 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px 90px;
+    margin: 30px 100px;
     text-align: center;
     background-color: #ffffff;
     padding: 30px 0 15px 0;
@@ -443,7 +430,7 @@ div article img {
     display: grid;
     max-width: 100%;
     padding: 30px;
-    margin: 30px 90px;
+    margin: 30px 100px;
     text-align: center;
 }
 
@@ -480,7 +467,7 @@ article div h3 {
 article form {
     display: grid;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
 }
 
 article form h1,
@@ -527,7 +514,7 @@ article form button {
     position: absolute;
     top: 140px;
     left: 0;
-    padding: 16px;
+    /* padding: 16px; */
     text-align: left;
     color: #FFFFFF;
     background-color: transparent;
@@ -566,7 +553,6 @@ article form button {
     width: 550px;
     padding: 16px;
     text-align: left;
-    color: var(--accent1-color);
     background-color: transparent;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -585,7 +571,8 @@ article form button {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 
 .label-line {
@@ -607,13 +594,16 @@ article form button {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 32px;
-}
-
-.section-label p {
-    margin-bottom: 0;
+    margin-left: 90px;
 }
 
 .trip-package {
     font-size: 17px;
     font-weight: 700;
+}
+
+.trip-cards {
+    margin: 10px 100px;
+    width: 600px;
+    text-align: left;
 }
